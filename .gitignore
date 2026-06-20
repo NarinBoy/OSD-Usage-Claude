@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- OSD runtime (generated locally, machine-specific) ---
+osd-config.json      # saved window position
+osd-status.json      # live usage data (also lives in ~/.claude)
+
+# --- Test / log artifacts ---
+*.log
+err.txt
+out.txt
+
+# --- Internal notes (private, not for GitHub) ---
+แผน.md
+CLAUDE.md
+
+# --- Local media (references / recordings, not part of the app) ---
+*.mp4
+videoframe*.png
+Screenshot*.png
+
+# --- OS cruft ---
+Thumbs.db
+desktop.ini
+.DS_Store
